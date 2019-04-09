@@ -373,13 +373,6 @@ div {
   clear: both;
 }
 
-.center_vertically {
-  position: relative;
-  top: 100%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
 
 img { 
     border: none; 
