@@ -143,7 +143,29 @@
     text-indent: 0px;
     text-transform: none;
 }
-
+/*BODY IN COLUMNS*/
+.paragraph_style_7 {
+    color: rgb(0, 0, 0);
+    font-family: 'Avenir-Light', 'Avenir';
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+    letter-spacing:    -0.02em;
+    line-height: 22px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1.00;
+    padding-bottom: 12px;
+    padding-top: 0px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0px;
+    text-transform: none;
+}
 .style_SkipStroke_1 {
     background: transparent;
     opacity: 1.00;
@@ -325,6 +347,40 @@ a.class9:hover {
 div { 
     overflow: visible; 
 }
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 17%;
+  padding: 0px;
+        
+}
+.column2 {
+  float: left;
+  width: 83%;
+  padding: 0px;
+}
+.column25 {
+  float: left;
+  width: 25%;
+  padding: 0px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center_vertically {
+  position: relative;
+  top: 100%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 img { 
     border: none; 
 }
